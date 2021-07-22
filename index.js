@@ -33,3 +33,8 @@ app.post('/', async (req, res) => {
         res.json({message: err.message})
     }
 })
+
+//Example
+app.get('/', (req, res) => {
+    res.send("HEY!!")
+})
